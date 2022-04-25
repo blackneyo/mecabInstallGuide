@@ -34,3 +34,11 @@ https://github.com/Pusnow/mecab-python-msvc/releases/tag/mecab_python-0.996_ko_0
 (아나콘다 사용자 경우 base) C:\Users\사용자명\Anaconda3\Lib\site-packages) 
 (가상환경 사용 경우)           C:/Users/사용자명/Anaconda3/envs/가상환경명/Lib/site-packages
 아나콘다를 쓰면 anaconda prompt를 킨 후/ 가상환경을 안쓰면 cmd 창을 킨 후 site-package 폴더로 이동 후 pip로 설치
+
+# 주의할 점!!!!!!
+
+wheel은 현재 python 3.8 버젼까지 지원함
+
+따라서, 현재 python 3.9 버젼 이상을 사용하는 사람은
+
+conda 가상환경을 python 3.8 이하 버젼으로 생성하여 사용해야함.
