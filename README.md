@@ -1,0 +1,2 @@
+# mecabInstallGuide
+mecab install guide
